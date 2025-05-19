@@ -71,11 +71,11 @@ This project builds a full machine learning pipeline to predict product failures
 
 Confusion Matrix:
 
-![confusion-matrix](assets/confusion_matrix.png)
+![confusion-matrix](Unknown.png)
 
 Feature Importances:
 
-![feature-importances](assets/feature_importances.png)
+![feature-importances](Unknown-2.png)
 
 ---
 

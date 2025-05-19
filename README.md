@@ -1,6 +1,10 @@
 # 🏭 SECOM Sensor Failure Prediction (Imbalanced Classification Pipeline)
 
-This project builds a full machine learning pipeline to predict product failures in a semiconductor manufacturing process using the SECOM dataset. It addresses real-world challenges such as noisy sensor data, feature overload (591 features), and severe class imbalance (only ~6.6% failures).
+This project focuses on building a robust machine learning pipeline to predict product failures in a semiconductor manufacturing process using the SECOM dataset. The dataset includes over 590 sensor signals per unit and is heavily imbalanced with only ~6.6% failure cases.
+
+The pipeline tackles key real-world challenges including high-dimensional noisy data and class imbalance. It incorporates feature selection using F-Test (SelectKBest), handles imbalance via both scale_pos_weight and SMOTE oversampling, and leverages XGBoost for classification. The model was evaluated using F1-score, classification reports, and confusion matrix visualizations to ensure interpretability and performance.
+
+The final solution is production-ready and structured using sklearn and imblearn pipelines, making it ideal for demonstration in ML engineering interviews or real-time applications. Feature importance plots and evaluation metrics help communicate the model’s decision-making process clearly.
 
 ---
 

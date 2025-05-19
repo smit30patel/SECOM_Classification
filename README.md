@@ -83,5 +83,10 @@ Feature Importances:
 
 ```bash
 pip install pandas scikit-learn seaborn matplotlib xgboost imbalanced-learn
+```
+
+## ✍️ Author
+
+Smit Patel
 
 
